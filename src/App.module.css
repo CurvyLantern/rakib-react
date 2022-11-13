@@ -6,3 +6,18 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+.singleProduct {
+    display: flex;
+    padding: 10px;
+}
+
+.productImg {
+    width: 70px;
+}
+
+.singleProduct > img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
